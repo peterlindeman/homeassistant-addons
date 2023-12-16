@@ -23,7 +23,7 @@ https://github.com/danielwelch/hassio-addons
 ![Supports i386 Architecture][dropbox-sync-i386-shield]
 ![Docker Pulls][dropbox-sync-pulls-shield]
 
-Upload your Hass.io backups to Dropbox.
+Upload your HomeAssistant backups to Dropbox.
 
 [:books: Dropbox Sync add-on documentation][addon-dropbox-sync]
 
