@@ -1,4 +1,4 @@
-# Hass.io Add-ons for Home Assistant
+# Add-ons for Home Assistant OS
 
 [![License][license-shield]](LICENSE.md)
 
@@ -8,9 +8,9 @@ This repository collects all of my Hass.io add-ons for easier installation.
 
 ## Installation
 
-Follow [the official instructions](https://home-assistant.io/hassio/installing_third_party_addons/) on the Home Assistant website and use the following URL:
+Follow [the official instructions](https://www.home-assistant.io/common-tasks/os#installing-third-party-add-ons) on the Home Assistant website and use the following URL:
 ```txt
-https://github.com/danielwelch/hassio-addons
+https://github.com/peterlindeman/homeassistant-addons
 ```
 
 ## Add-ons provided by this repository
@@ -27,7 +27,7 @@ Upload your HomeAssistant backups to Dropbox.
 
 [:books: Dropbox Sync add-on documentation][addon-dropbox-sync]
 
-[addon-dropbox-sync]: https://github.com/danielwelch/hassio-dropbox-sync
+[addon-dropbox-sync]: https://github.com/peterlindeman/homeassistant-dropbox-sync
 [dropbox-sync-armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg?style=flat
 [dropbox-sync-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg?style=flat
 [dropbox-sync-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg?style=flat
