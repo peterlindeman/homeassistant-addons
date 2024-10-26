@@ -1,6 +1,6 @@
 {
   "name": "Dropbox Sync",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "slug": "dropbox_sync",
   "description": "Upload your HomeAssistant backups to Dropbox",
   "url": "https://github.com/peterlindeman/homeassistant-dropbox-sync",
