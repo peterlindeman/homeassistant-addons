@@ -1,5 +1,5 @@
 name: "Signal API Receiver"
-version: "1.0.0"
+version: "1.0.1"
 slug: "signal_api_receiver"
 description: "Polls a signal-cli-rest-api json-rpc websocket and exposes received messages over a simple HTTP endpoint"
 url: "https://github.com/peterlindeman/homeassistant-addons/tree/main/signal-api-receiver"
