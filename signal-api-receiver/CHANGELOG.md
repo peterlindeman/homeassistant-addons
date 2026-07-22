@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.0.3
+
+- Add `icon.png` (128x128) and `logo.png` (256x256), based on the Signal logo.
+
 ## 1.0.2
 
 - Fix: 1.0.1 dereferenced the upstream binary's symlink but dropped the rest
