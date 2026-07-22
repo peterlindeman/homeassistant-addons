@@ -1,0 +1,55 @@
+configuration:
+  signal_account:
+    name: Signal account
+    description: >-
+      The bot's Signal phone number, in E.164 format with a leading +
+      (e.g. +31612345678).
+  signal_api_url:
+    name: Signal API URL
+    description: >-
+      WebSocket URL of the signal-cli-rest-api instance running in
+      json-rpc mode (e.g. ws://192.168.1.2:8080).
+  log_level:
+    name: Log level
+    description: Verbosity of the add-on's log output.
+  server_addr:
+    name: Server address
+    description: >-
+      Address the HTTP server listens on. Only change this together with
+      the exposed port below.
+  repeat_last_message:
+    name: Repeat last message
+    description: >-
+      If enabled, GET /receive/pop returns the last message again when
+      there are no new messages, instead of 204 No Content.
+  record_message_type:
+    name: Recorded message type
+    description: Which Signal envelope type to record and expose.
+  mqtt_server:
+    name: MQTT broker
+    description: >-
+      Optional. Host:port of an MQTT broker. Leave empty to disable MQTT
+      publishing entirely.
+  mqtt_client_id:
+    name: MQTT client ID
+    description: Optional. Defaults to an ID derived from the add-on's local address.
+  mqtt_user:
+    name: MQTT username
+    description: Optional.
+  mqtt_password:
+    name: MQTT password
+    description: Optional.
+  mqtt_topic_prefix:
+    name: MQTT topic prefix
+    description: Prefix used for published MQTT topics.
+  mqtt_qos:
+    name: MQTT QoS
+    description: MQTT Quality of Service level (0, 1 or 2).
+  mqtt_retain:
+    name: MQTT retain
+    description: Publish MQTT messages with the retain flag set.
+  mqtt_insecure_skip_verify:
+    name: MQTT skip TLS verification
+    description: Skip server certificate validation for TLS MQTT connections.
+network:
+  8105/tcp: Signal API Receiver HTTP endpoint

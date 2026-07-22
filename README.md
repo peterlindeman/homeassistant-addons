@@ -15,22 +15,17 @@ https://github.com/peterlindeman/homeassistant-addons
 
 ## Add-ons provided by this repository
 
-### [Dropbox Sync][addon-dropbox-sync]
+### [Signal API Receiver][addon-signal-api-receiver]
 
-![Supports armhf Architecture][dropbox-sync-armhf-shield]
-![Supports aarch64 Architecture][dropbox-sync-aarch64-shield]
-![Supports amd64 Architecture][dropbox-sync-amd64-shield]
-![Supports i386 Architecture][dropbox-sync-i386-shield]
-![Docker Pulls][dropbox-sync-pulls-shield]
+![Supports aarch64 Architecture][signal-api-receiver-aarch64-shield]
+![Supports amd64 Architecture][signal-api-receiver-amd64-shield]
 
-Upload your HomeAssistant backups to Dropbox.
+Polls a `signal-cli-rest-api` json-rpc WebSocket feed and exposes it over a simple pollable
+HTTP endpoint. Wraps [kalbasit/signal-api-receiver](https://github.com/kalbasit/signal-api-receiver).
 
-[:books: Dropbox Sync add-on documentation][addon-dropbox-sync]
+[:books: Signal API Receiver add-on documentation][addon-signal-api-receiver]
 
-[addon-dropbox-sync]: https://github.com/peterlindeman/homeassistant-dropbox-sync
-[dropbox-sync-armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg?style=flat
-[dropbox-sync-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg?style=flat
-[dropbox-sync-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg?style=flat
-[dropbox-sync-i386-shield]: https://img.shields.io/badge/i386-yes-green.svg?style=flat
-[dropbox-sync-pulls-shield]: https://img.shields.io/docker/pulls/dwelch2101/dropbox-sync-armhf.svg?style=flat
+[addon-signal-api-receiver]: signal-api-receiver/DOCS.md
+[signal-api-receiver-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg?style=flat
+[signal-api-receiver-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg?style=flat
 [license-shield]: https://img.shields.io/github/license/danielwelch/hassio-addons.svg?style=flat
